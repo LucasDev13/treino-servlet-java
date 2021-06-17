@@ -10,9 +10,9 @@
 </head>
 	Lista de empresas: </br>
 	<ul>
-		<c:foreach items="${empresas}" var="empresa">
-			<li>${empresas.nome}</li>
-		</c:foreach>
+		<c:forEach items="${empresas}" var="empresa">
+			<li>${empresa.nome}</li>
+		</c:forEach>		
 	</ul>
 
 </body>
